@@ -2,18 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameManager : MonoBehaviour
+public class BrickManager : MonoBehaviour
 {
     #region Singleton
 
-    private static GameManager _instance;
+    private static BrickManager _instance;
 
-    public static GameManager Instance => _instance;
-
-    private void Start()
-    {
-        Screen.SetResolution(540, 960, false);
-    }
+    public static BrickManager Instance => _instance;
 
     private void Awake()
     {
@@ -29,5 +24,5 @@ public class GameManager : MonoBehaviour
 
     #endregion
 
-    public bool hasGameStarted { get; set; }
+    public Sprite[] sprites;
 }

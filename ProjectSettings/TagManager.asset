@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ball
   layers:
   - Default
   - TransparentFX
@@ -43,6 +44,12 @@ TagManager:
     locked: 0
   - name: Paddle
     uniqueID: 808249393
+    locked: 0
+  - name: Ball
+    uniqueID: 1591000547
+    locked: 0
+  - name: Bricks
+    uniqueID: 894633197
     locked: 0
   - name: Default
     uniqueID: 0
